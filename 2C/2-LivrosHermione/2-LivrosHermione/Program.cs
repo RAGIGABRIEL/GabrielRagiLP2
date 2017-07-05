@@ -31,8 +31,9 @@ namespace _2_LivrosHermione
                 i++;
             }
 
-            diasparaler = (totalpags / phr) / 24;
-            Console.WriteLine(diasparaler);
+            double sla;
+            sla = totalpags / phr;
+            Console.WriteLine(sla/24);
         }
     }
 }
