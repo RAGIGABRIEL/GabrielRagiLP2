@@ -39,15 +39,15 @@ namespace _05___produtos
 
         }
 
-        public void repor(int n)
+        public void Repor(int n)
         {
-            quantidade = quantidade + n;
+            quantidade += n;
         }
 
-        public void retirar(int n)
+        public void Retirar(int n)
         {
             if (quantidade > n)
-                quantidade = quantidade - n;
+                quantidade -= n;
             else
                 Console.WriteLine("Erro");
         }
