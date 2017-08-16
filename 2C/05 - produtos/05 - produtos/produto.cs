@@ -50,6 +50,7 @@ namespace _05___produtos
                 quantidade -= n;
             else
                 Console.WriteLine("Erro");
+        
         }
             
             
