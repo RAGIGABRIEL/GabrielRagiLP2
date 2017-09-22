@@ -11,5 +11,8 @@ namespace _08___Empresa
 
         public Gerente supervisor { get; set; }
         public int dataEntrada { get { return dataEntrada; } }
+
+
+        public Empregado (string nome,double nR,double salario) : base (nome)
     }
 }

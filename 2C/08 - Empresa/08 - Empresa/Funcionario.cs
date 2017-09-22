@@ -16,6 +16,18 @@ namespace _08___Empresa
         private double cpf { get { return cpf; } }
 
 
+        public Funcionario (string nome,double nR,double salario)
+        {
+            nomeCompleto = nome;
+
+            nRegistro = nR;
+
+            this.salario = salario;
+
+
+        }
+
+
 
     }
 }
